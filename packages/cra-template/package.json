@@ -1,0 +1,23 @@
+{
+  "name": "cra-template",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "qqq000qqq@aliyun.com <xqq1258460261>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/QQXQQ/SimulationCreateReactApp.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
