@@ -1,9 +1,9 @@
-
+process.env.NODE_ENV = "production"
 const fs = require("fs-extra")
 const chalk = require("chalk")
 const configFactory = require("../config/webpack.config")
 const paths = require("../config/paths")
-const config = configFactory("production")
+const config = configFactory(process.env.NODE_ENV)
 const webpack = require("webpack")
 
 function copyPublicFolder() {

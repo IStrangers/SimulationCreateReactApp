@@ -18,6 +18,7 @@
     "url": "https://gitee.com/QQXQQ/SimulationCreateReactApp.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "node ./index.js build",
+    "start": "node ./index.js start"
   }
 }
