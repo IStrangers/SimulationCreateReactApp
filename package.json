@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "commander": "^9.4.0",
+    "lerna": "^5.3.0"
+  },
+  "name": "SimulationCreateReactApp",
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "create-react-app": "node ./packages/create-react-app/index.js"
+  }
+}
